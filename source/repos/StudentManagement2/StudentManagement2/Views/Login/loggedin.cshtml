@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "loggedin";
+}
+
+<h2>Hello , Welcome @Session["Username"]</h2>
+
+<p>
+    @Html.ActionLink("Courses", "Index", "Courses")
+    
+</p>
+<p>
+    @Html.ActionLink("Batches", "Index", "Batches")
+</p>
+
